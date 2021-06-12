@@ -70,7 +70,7 @@ a.submit{
 #check{
   display: none;
 }
-@media screen and (max-width: 900px) {
+@media only screen and (min-width: 768px) {
   nav{
     padding: 0px 50px;
   }
@@ -228,7 +228,7 @@ a.submit1{
 }
 
 
-@media screen and (max-width: 900px) {
+@media only screen and (min-width: 768px) {
   .sidebar {
     display: none;
   }
@@ -472,7 +472,7 @@ a.submit1{
       
   }
    
-   @media only screen and (max-width: 900px) and (orientation:portrait) {
+   @media only screen and (min-width: 768px) {
     .footer{
          
       
